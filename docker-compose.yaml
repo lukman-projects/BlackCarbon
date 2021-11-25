@@ -1,0 +1,15 @@
+version: "3.8"
+
+services:
+
+  nginx:
+    build:
+      context: .
+      target: prod
+    restart: always
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - /etc/letsencrypt/:/usr/letsencrypt/
+    ports:
+      - "80:80"
+      - "443:443"

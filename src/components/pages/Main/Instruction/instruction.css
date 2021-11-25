@@ -1,0 +1,65 @@
+#instruction {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background: #131212;
+}
+
+.instruction-img {
+
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.instruction-desc {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+    margin-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+
+#instruction .col-3 {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+#instruction .col-3:nth-child(4) {
+    border-right: none;
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+
+}
+
+@media (max-width: 415px) {
+
+}
+
+@media (max-width: 376px) {
+
+}
+
+@media (max-width: 320px) {
+
+}

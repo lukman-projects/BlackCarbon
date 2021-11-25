@@ -1,0 +1,30 @@
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: #161616;
+}
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.footer-link {
+}
+.footer--logo {
+    width: 71.35px;
+    height: 62px;
+}
+
+
+.footer-title {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: right;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    margin-top: 22px;
+}

@@ -1,0 +1,22 @@
+
+
+.notfound-page{
+	background: rgb(0, 0, 0, 0.6);
+}
+.notfound-404{
+	font-size: calc(40px + 10 * ((100vw - 320px) / (1280 - 320)));
+}
+.notfound-title{
+	font-weight: 700;
+	font-size: calc(25px + 15 * ((100vw - 320px) / (1280 - 320)));
+}
+.notfound-description{
+	font-size: calc(14px + 4 * ((100vw - 320px) / (1280 - 320)));
+}
+.notfound-bg{
+	background: #131212;
+	z-index: 1;
+}
+.notfound-btn{
+	background: #0D82F9;
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0d1ecd6a-a8f2-44c4-a9f8-85c250a71143" name="Changes" comment="Changes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/components/pages/user/index.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/pages/profileInfo.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1y7MUqi5CgRS3FvmQmyPlPwjtO2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Проекты\BlackCarbonFixed\public" />
+      <recent name="D:\Проекты\BlackCarbonFixed\src\components\pages" />
+      <recent name="D:\Проекты\BlackCarbonFixed\src\assets\images" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0d1ecd6a-a8f2-44c4-a9f8-85c250a71143" name="Changes" comment="" />
+      <created>1631598192677</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631598192677</updated>
+      <workItem from="1631598195897" duration="10992000" />
+      <workItem from="1631619937143" duration="4209000" />
+      <workItem from="1631718136183" duration="3148000" />
+      <workItem from="1631766560028" duration="19115000" />
+      <workItem from="1631796550447" duration="9394000" />
+      <workItem from="1631855600216" duration="10956000" />
+      <workItem from="1632033184995" duration="15304000" />
+      <workItem from="1632113923015" duration="18913000" />
+      <workItem from="1632200101221" duration="2106000" />
+      <workItem from="1632557378147" duration="129000" />
+      <workItem from="1632572579437" duration="926000" />
+      <workItem from="1632720467876" duration="402000" />
+      <workItem from="1635864907673" duration="3664000" />
+      <workItem from="1635927944268" duration="145000" />
+      <workItem from="1635931066410" duration="1239000" />
+      <workItem from="1636009372182" duration="8462000" />
+      <workItem from="1636092003263" duration="1018000" />
+      <workItem from="1636094817492" duration="795000" />
+      <workItem from="1636187863358" duration="27000" />
+      <workItem from="1636262641832" duration="5295000" />
+      <workItem from="1636295118091" duration="792000" />
+      <workItem from="1636299209614" duration="36000" />
+      <workItem from="1636311377643" duration="801000" />
+      <workItem from="1636357889998" duration="49000" />
+      <workItem from="1636393977033" duration="716000" />
+      <workItem from="1636448714346" duration="444000" />
+      <workItem from="1636456563032" duration="212000" />
+      <workItem from="1636532507958" duration="2601000" />
+      <workItem from="1636625248242" duration="358000" />
+      <workItem from="1637825307430" duration="388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,20 @@
+.header {
+  background: rgba(255, 255, 255, 0.1);
+}
+.header .wrapper {
+  padding-left: calc(10px + 5 * ((100vw - 320px) / (1280 - 320)));
+  padding-right: calc(10px + 5 * ((100vw - 320px) / (1280 - 320)));
+  padding-bottom: calc(10px + 10 * ((100vw - 320px) / (1280 - 320)));
+  padding-top: calc(10px + 10 * ((100vw - 320px) / (1280 - 320)));
+}
+
+.header__logo {
+  width: calc(50px + 20 * ((100vw - 320px) / (1280 - 320)));
+  height: calc(40px + 20 * ((100vw - 320px) / (1280 - 320)));
+}
+
+.header__link {
+  padding-left: calc(10px + 5 * ((100vw - 320px) / (1280 - 320)));
+  padding-right: calc(10px + 5 * ((100vw - 320px) / (1280 - 320)));
+  font-size: calc(13px + 2 * ((100vw - 320px) / (1280 - 320)));
+}

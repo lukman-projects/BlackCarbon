@@ -1,0 +1,23 @@
+
+server {
+    listen 80;
+    server_name black-carbons.com  www.black-carbons.com;
+
+    gzip on;
+    gzip_types application/javascript image/* text/* ;
+    gunzip on;
+
+    location / {
+        root /usr/share/nginx/html;
+        index index.html;
+        try_files $uri /index.html;
+    }
+
+    location ~ ^/(apple-app-site-association.json|app-ads.txt|sitemap.xml) {
+        root /www/data/static;
+        try_files $uri $uri/;
+    }
+
+}
+
+

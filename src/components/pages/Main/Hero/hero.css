@@ -1,0 +1,798 @@
+#hero {
+    background: #131212;
+    min-height: 100vh;
+}
+.container {
+    max-width: 1070px !important;
+
+}
+
+.delay {
+    -webkit-animation: delay 4s ease-in alternate;
+}
+
+@keyframes delay {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hero--box {
+
+}
+
+.hero--title {
+    padding-top: 130px;
+    display: flex;
+    justify-content: center;
+    -webkit-animation: title 1s ease-in alternate;
+    animation-delay: 3s;
+}
+
+@keyframes title {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.title--delay {
+    -webkit-animation: titleDelay 4s ease-in alternate;
+    -webkit-animation-delay: 5s;
+}
+
+@keyframes titleDelay {
+    0% {
+        transform: translateY(0);
+    }
+    45% {
+        transform: translateY(-20px) scale(0.5);
+    }
+    60% {
+        transform: translateY(-20px) scale(0.5);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.wallet {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    z-index: 0;
+}
+
+.card--holder {
+    position: absolute;
+    margin-top: 31px;
+    -webkit-animation: holder 4s ease-in alternate;
+    -webkit-animation-delay: 5s;
+}
+
+@keyframes holder {
+    0% {
+        transform: translateY(0) rotate(0);
+    }
+    45% {
+        transform: translateY(80px);
+    }
+    60% {
+        transform: translateY(80px);
+    }
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+}
+
+.rfid--card {
+    position: absolute;
+    margin-top: -431px;
+    -webkit-animation: card 4s ease-in alternate;
+    -webkit-animation-delay: 5s;
+}
+
+.rfid--card2 {
+    display: none;
+}
+
+@keyframes card {
+    0% {
+        transform: translateY(0) rotate(0);
+    }
+    45% {
+        transform: translateY(-80px) rotate(-13deg);
+    }
+    60% {
+        transform: translateY(-80px) rotate(-13deg);
+    }
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+}
+
+.hero-desc {
+    display: flex;
+    justify-content: center;
+    margin-top: 333px;
+    -webkit-animation: desc 1s ease-in alternate;
+    -webkit-animation-delay: 3s;
+}
+
+@keyframes desc {
+    0% {
+        opacity: 0;
+        transform: translateY(30px)
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+.desc--delay {
+    -webkit-animation: descDelay 4s ease-in alternate;
+    -webkit-animation-delay: 5s;
+}
+
+@keyframes descDelay {
+    0% {
+        transform: translateY(0) rotate(0);
+    }
+    45% {
+        transform: translateY(80px) scale(0.8);
+    }
+    60% {
+        transform: translateY(80px) scale(0.8);
+    }
+    100% {
+        transform: translateY(0) rotate(0);
+    }
+}
+
+.hero--logo {
+    opacity: 0;
+    margin-left: 420px;
+    margin-top: -364px;
+    -webkit-animation: logo 4s ease-in alternate;
+    width: 230px;
+    height: 164px;
+}
+
+@keyframes logo {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+        margin-left: 420px;
+        margin-top: -364px;
+        width: 230px;
+        height: 164px;
+    }
+
+    70% {
+        opacity: 1;
+        width: 56px;
+        height: 40px;
+        margin-left: 510px;
+        margin-top: -182px;
+        transform: translateY(0)
+    }
+    90% {
+        opacity: 1;
+        width: 56px;
+        height: 40px;
+        margin-left: 510px;
+        margin-top: -182px;
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 0;
+        width: 56px;
+        height: 40px;
+        margin-left: 510px;
+        margin-top: -182px;
+        transform: translateY(0);
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+    .card--holder {
+        width: 334px;
+        margin-top: 11px;
+    }
+
+    .rfid--card {
+        margin-top: -387px;
+    }
+
+    .hero--title {
+        width: 600px;
+        margin-left: 196px;
+    }
+
+    .hero-desc {
+        margin-top: 257px;
+        width: 490px;
+        margin-left: 259px;
+    }
+
+    .hero--logo {
+        opacity: 0;
+        margin-left: 397px;
+        margin-top: -364px;
+        -webkit-animation: logo 4s ease-in alternate;
+        width: 230px;
+        height: 164px;
+    }
+
+    @keyframes logo {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+            margin-left: 397px;
+            margin-top: -364px;
+            width: 230px;
+            height: 164px;
+        }
+
+        70% {
+            opacity: 1;
+            width: 47px;
+            height: 34px;
+            margin-left: 489px;
+            margin-top: -138px;
+            transform: translateY(0)
+        }
+        90% {
+            opacity: 1;
+            width: 47px;
+            height: 34px;
+            margin-left: 489px;
+            margin-top: -138px;
+            transform: translateY(0);
+        }
+        100% {
+            opacity: 0;
+            width: 47px;
+            height: 34px;
+            margin-left: 489px;
+            margin-top: -138px;
+            transform: translateY(0);
+        }
+
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .card--holder {
+        width: 253px;
+    }
+
+    .hero--title {
+        width: 512px;
+        padding-top: 99px;
+        margin-left: 136px;
+    }
+
+    .hero-desc {
+        margin-left: 130px;
+        margin-top: 197px;
+    }
+
+    .card--holder {
+        position: absolute;
+        -webkit-animation: holder 4s ease-in alternate;
+        -webkit-animation-delay: 5s;
+    }
+
+    @keyframes holder {
+        0% {
+            transform: translateY(0) rotate(0);
+        }
+        45% {
+            transform: translateY(50px);
+        }
+        60% {
+            transform: translateY(50px);
+        }
+        100% {
+            transform: translateY(0) rotate(0);
+        }
+    }
+    .rfid--card {
+
+        margin-top: -287px;
+        -webkit-animation: card 4s ease-in alternate;
+        -webkit-animation-delay: 5s;
+    }
+
+    @keyframes card {
+        0% {
+            transform: translateY(0) rotate(0);
+        }
+        45% {
+            transform: translateY(-50px) rotate(-13deg);
+        }
+        60% {
+            transform: translateY(-50px) rotate(-13deg);
+        }
+        100% {
+            transform: translateY(0) rotate(0);
+        }
+    }
+    .hero--logo {
+        opacity: 0;
+        margin-left: 284px;
+        margin-top: -260px;
+        -webkit-animation: logo 4s ease-in alternate;
+        width: 200px;
+        height: 134px;
+    }
+
+    @keyframes logo {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+            margin-left: 284px;
+            margin-top: -260px;
+            width: 200px;
+            height: 134px;
+        }
+
+        70% {
+            opacity: 1;
+            width: 36px;
+            height: 26px;
+            margin-left: 366px;
+            margin-top: -117px;
+            transform: translateY(0)
+        }
+        90% {
+            opacity: 1;
+            width: 36px;
+            height: 26px;
+            margin-left: 366px;
+            margin-top: -117px;
+            transform: translateY(0);
+        }
+        100% {
+            opacity: 0;
+            width: 36px;
+            height: 26px;
+            margin-left: 366px;
+            margin-top: -117px;
+            transform: translateY(0);
+        }
+
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .card--holder {
+        width: 253px;
+    }
+
+    .hero--title {
+        width: 512px;
+        padding-top: 99px;
+        margin-left: 136px;
+    }
+
+    .hero-desc {
+        margin-left: 130px;
+        margin-top: 197px;
+    }
+
+    .card--holder {
+        position: absolute;
+        -webkit-animation: holder 4s ease-in alternate;
+        -webkit-animation-delay: 5s;
+    }
+
+    @keyframes holder {
+        0% {
+            transform: translateY(0) rotate(0);
+        }
+        45% {
+            transform: translateY(50px);
+        }
+        60% {
+            transform: translateY(50px);
+        }
+        100% {
+            transform: translateY(0) rotate(0);
+        }
+    }
+    .rfid--card {
+
+        margin-top: -287px;
+        -webkit-animation: card 4s ease-in alternate;
+        -webkit-animation-delay: 5s;
+    }
+
+    @keyframes card {
+        0% {
+            transform: translateY(0) rotate(0);
+        }
+        45% {
+            transform: translateY(-50px) rotate(-13deg);
+        }
+        60% {
+            transform: translateY(-50px) rotate(-13deg);
+        }
+        100% {
+            transform: translateY(0) rotate(0);
+        }
+    }
+    .hero--logo {
+        opacity: 0;
+        margin-left: 283px;
+        margin-top: -260px;
+        -webkit-animation: logo 4s ease-in alternate;
+        width: 200px;
+        height: 134px;
+    }
+
+    @keyframes logo {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+            margin-left: 283px;
+            margin-top: -260px;
+            width: 200px;
+            height: 134px;
+        }
+
+        70% {
+            opacity: 1;
+            width: 36px;
+            height: 26px;
+            margin-left: 366px;
+            margin-top: -117px;
+            transform: translateY(0)
+        }
+        90% {
+            opacity: 1;
+            width: 36px;
+            height: 26px;
+            margin-left: 366px;
+            margin-top: -117px;
+            transform: translateY(0);
+        }
+        100% {
+            opacity: 0;
+            width: 36px;
+            height: 26px;
+            margin-left: 366px;
+            margin-top: -117px;
+            transform: translateY(0);
+        }
+
+    }
+}
+
+@media (max-width: 576px) {
+    .rfid--card {
+        display: none;
+    }
+
+    .rfid--card2 {
+        display: block;
+        width: 313px;
+        margin-top: 24px;
+    }
+
+    .hero--title {
+        width: 494px;
+        margin-left: 42px;
+        padding-top: 62px;
+    }
+
+    .desc--delay {
+        -webkit-animation: none;
+    }
+
+    .title--delay {
+        -webkit-animation: none;
+    }
+
+    .hero-desc {
+        width: 434px;
+        margin-top: 39px;
+        margin-left: 70px;
+    }
+
+    .card--holder {
+        -webkit-animation: none;
+        width: 329px;
+    }
+
+    .hero--logo {
+        opacity: 0;
+        margin-left: 188px;
+        margin-top: -275px;
+        -webkit-animation: logo 4s ease-in alternate;
+        width: 230px;
+        height: 164px;
+    }
+
+    @keyframes logo {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+            margin-left: 188px;
+            margin-top: -275px;
+            width: 230px;
+            height: 164px;
+        }
+
+        70% {
+            opacity: 1;
+            margin-left: 264px;
+            margin-top: -134px;
+            width: 48px;
+            height: 35px;
+            transform: translateY(0)
+        }
+        90% {
+            opacity: 1;
+            margin-left: 264px;
+            margin-top: -134px;
+            width: 48px;
+            height: 35px;;
+            transform: translateY(0);
+        }
+        100% {
+            opacity: 0;
+            margin-left: 264px;
+            margin-top: -134px;
+            width: 48px;
+            height: 35px;
+            transform: translateY(0);
+        }
+
+    }
+}
+
+@media (max-width: 415px) {
+    .rfid--card {
+        display: none;
+    }
+
+    .rfid--card2 {
+        display: block;
+    }
+
+    .hero--title {
+        margin-left: 39px;
+        width: 341px;
+
+    }
+
+    .hero-desc {
+        margin-left: 35px;
+        width: 346px;
+    }
+
+
+    .hero--logo {
+        opacity: 0;
+        margin-left: 95px;
+        margin-top: -275px;
+        -webkit-animation: logo 4s ease-in alternate;
+        width: 230px;
+        height: 164px;
+    }
+
+    @keyframes logo {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+            margin-left: 95px;
+            margin-top: -275px;
+            width: 230px;
+            height: 164px;
+        }
+
+        70% {
+            opacity: 1;
+            margin-left: 183px;
+            margin-top: -124px;
+            width: 48px;
+            height: 34px;
+            transform: translateY(0)
+        }
+        90% {
+            opacity: 1;
+            margin-left: 183px;
+            margin-top: -124px;
+            width: 48px;
+            height: 34px;
+            transform: translateY(0);
+        }
+        100% {
+            opacity: 0;
+            margin-left: 183px;
+            margin-top: -124px;
+            width: 48px;
+            height: 34px;
+            transform: translateY(0);
+        }
+
+    }
+}
+
+@media (max-width: 376px) {
+    #hero {
+        min-height: 60vh;
+    }
+
+    .rfid--card {
+        display: none;
+    }
+
+    .rfid--card2 {
+        display: block;
+    }
+
+    .hero--title {
+        margin-left: 21px;
+        width: 335px;
+    }
+
+
+    .hero-desc {
+        margin-left: 29px;
+        width: 319px;
+    }
+
+    .hero--logo {
+        opacity: 0;
+        margin-left: 72px;
+        margin-top: -275px;
+        -webkit-animation: logo 4s ease-in alternate;
+        width: 230px;
+        height: 164px;
+    }
+
+    @keyframes logo {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+            margin-left: 72px;
+            margin-top: -275px;
+            width: 230px;
+            height: 164px;
+        }
+
+        70% {
+            opacity: 1;
+            margin-left: 164px;
+            margin-top: -121px;
+            width: 47px;
+            height: 35px;
+            transform: translateY(0)
+        }
+        90% {
+            opacity: 1;
+            margin-left: 164px;
+            margin-top: -121px;
+            width: 47px;
+            height: 35px;
+            transform: translateY(0);
+        }
+        100% {
+            opacity: 0;
+            margin-left: 164px;
+            margin-top: -121px;
+            width: 47px;
+            height: 35px;
+            transform: translateY(0);
+        }
+
+    }
+}
+
+@media (max-width: 320px) {
+    .rfid--card {
+        display: none;
+    }
+
+    .rfid--card2 {
+        display: block;
+        width: 295px;
+    }
+
+    .hero--title {
+        margin-left: 21px;
+        width: 291px;
+    }
+
+    .card--holder {
+        width: 315px;
+    }
+
+    .hero-desc {
+        margin-left: 23px;
+        width: 279px;
+    }
+
+    .hero--logo {
+        opacity: 0;
+        margin-left: 45px;
+        margin-top: -275px;
+        -webkit-animation: logo 4s ease-in alternate;
+        width: 230px;
+        height: 164px;
+    }
+
+    @keyframes logo {
+        0% {
+            opacity: 0;
+        }
+        40% {
+            opacity: 1;
+            margin-left: 45px;
+            margin-top: -275px;
+            width: 230px;
+            height: 164px;
+        }
+
+        70% {
+            opacity: 1;
+            margin-left: 137px;
+            margin-top: -114px;
+            width: 45px;
+            height: 33px;
+            transform: translateY(0)
+        }
+        90% {
+            opacity: 1;
+            margin-left: 137px;
+            margin-top: -114px;
+            width: 45px;
+            height: 33px;
+            transform: translateY(0);
+        }
+        100% {
+            opacity: 0;
+            margin-left: 137px;
+            margin-top: -114px;
+            width: 45px;
+            height: 33px;
+            transform: translateY(0);
+        }
+
+    }
+}
